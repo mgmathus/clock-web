@@ -8,7 +8,7 @@ a {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 4vw;
+  font-size: 1vw;
   color: white;
   background: rgb(18, 19, 19);
 }
@@ -19,7 +19,6 @@ body {
 
 label {
   color: rgba(122, 122, 122, 0.815);
-  font-size: 1vw;
 }
 
 .date {

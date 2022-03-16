@@ -36,4 +36,12 @@ function openFullscreen() {
     }
 }
 
+function setBackground() {
+    document.body.style.backgroundColor = document.getElementById('bg-color').value;
+}
+
+function setFontColor() {
+    document.getElementById('date').style.color = document.getElementById('fc-color').value;
+}
+
 setInterval(getCurrentTime, 1000); //each second
