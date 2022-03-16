@@ -26,7 +26,7 @@ function getCurrentTime() {
 }
 
 function openFullscreen() {
-    var elem = document.getElementById("container");
+    let elem = document.querySelector("html");
     if (elem.requestFullscreen) {
         elem.requestFullscreen();
     } else if (elem.webkitRequestFullscreen) { /* Safari */
