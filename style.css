@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+a {
+  font-size: 2vw;
+  color: rgba(122, 122, 122, 0.815);
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
